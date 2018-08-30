@@ -3,6 +3,7 @@
 // @version 1.0
 // @description  Spams the submit button every 1 seconds until the forum post submits
 // @match *://scratch.mit.edu/*
+// @namespace https://greasyfork.org/users/208839
 // ==/UserScript==
 if(document.getElementsByClassName("errorlist").length == 1){
   if(document.getElementsByClassName("errorlist")[0].children[0].innerHTML == "Sorry, you have to wait 60 seconds between posts."){
